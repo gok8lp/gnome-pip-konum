@@ -1,0 +1,6 @@
+{
+  "uuid": "pip-konum@gokalp",
+  "name": "PiP Konum Hafızası",
+  "description": "Chrome PiP ve popup pencerelerini ilk seferde sağ altta, sonra en son bırakıldıkları yerde açar; üstte tutar.",
+  "shell-version": ["48", "49", "50", "51", "52"]
+}
