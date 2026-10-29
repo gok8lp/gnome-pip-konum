@@ -9,7 +9,7 @@ GNOME Wayland'da Chrome pencere konumunu kendisi seçemez; bu eklenti işi pence
 ## Kurulum
 
 ```bash
-git clone <bu-repo> && cd gnome-pip-konum
+git clone https://github.com/gok8lp/gnome-pip-konum.git && cd gnome-pip-konum
 ./kur.sh
 ```
 
