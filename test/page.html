@@ -1,0 +1,7 @@
+<!doctype html><title>pip test</title><body style="background:#222">
+<canvas id=c width=640 height=360></canvas><video id=v muted playsinline></video>
+<script>
+const c=document.getElementById('c'),x=c.getContext('2d');let t=0;
+setInterval(()=>{x.fillStyle=`hsl(${t++%360},70%,50%)`;x.fillRect(0,0,640,360);x.fillStyle='#fff';x.font='60px sans-serif';x.fillText('PiP '+t,40,200)},40);
+const v=document.getElementById('v');v.srcObject=c.captureStream(25);v.play();
+</script>
